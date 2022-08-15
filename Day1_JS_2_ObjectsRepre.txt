@@ -1,0 +1,61 @@
+2. Objects and its internal representation in Javascript
+
+Objects are important data types in javascript.
+Objects are different than primitive datatypes(number, string, boolean, etc.).
+Primitive data types contain one value but objects can hold many values in form of key:value pair. 
+These keys can be variable or functions and are called properties and methods, respectively in the context of an object.
+every object has some property associated with somevalue. 
+These values can be accessed using these properties assocaited with them.
+
+Creating Objects in JavaScript:
+1. By object literal
+2. By creating instance of Object directly (using new keyword)
+
+By object literal:
+The syntax of creating object using object literal is given below:
+Property and value is separated by colon(:).
+object = {property1:value1,property2.value2...propertyN.valueN}
+Example:
+ var personObj = {
+   firstName: 'Maheswari',
+   lastName: 'Dineshraja',
+   DOB: 'yyyy-mm-dd',
+   role: 'TechLead',
+   age: 'xx',
+   location: 'singapore',
+   nationality: 'singaporean',
+   skills: ['C', 'java', 'C++']
+ }
+
+By creating instance of Object directly (using new keyword):
+The syntax of creating object directly is given below:
+
+  var objectname = new Object();
+
+Here, new keyword is used to create object.
+
+Example:
+
+  var person = new Object();
+  person.firstName = "Maheswari"
+  person.lastName = "Dineshraja" 
+  person.age=37
+  person.role="TechLead"
+
+
+Accessing JavaScript Objects:
+The syntax for accessing the property of an object is:
+
+objectName.property
+
+or
+
+objectName[“property”]
+
+Accessing ‘firstName’ from example 1 using dot operator --> person.firstName
+
+
+Accessing ‘firstName’ form example 2 using [] -->person["firstName"]
+
+
+
